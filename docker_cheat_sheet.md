@@ -1,5 +1,29 @@
 # docker cheat sheet
 
+## docker コマンド解説。
+
+- docker compose up
+  - create and start container
+- docker compose down
+  - Stop and remove containers, networks
+- docker compose down -v
+  - コンテナにアタッチされたボリュームを削除する。
+- docker compose build
+  - サービスをビルド、リビルドする。
+  
+## よくあるエラー
+- [Cannot find module for a node js app running in a docker compose environment](https://stackoverflow.com/questions/42040317/cannot-find-module-for-a-node-js-app-running-in-a-docker-compose-environment)
+  - try
+    ```Shell
+    docker-compose down -v
+    ```
+  - After adding npm install to the Dockerfile, add node_modules to volumes
+    ```Shell
+    volumes:
+      - ./backend/:/usr/src/app
+      - /usr/src/app/node_modules
+    ```
+
 ## start docker on wsl
 - Start
     ```Shell
