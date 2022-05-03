@@ -1,6 +1,19 @@
 # docker cheat sheet
 
-## docker コマンド解説。
+## Docker Commands
+
+- Help
+  ```Shell
+  docker compose help
+  ```
+- Stop and remove containers and delete volumes.
+  ```Shell
+  docker compose down -v
+  ```
+- 
+  ```Shell
+  
+  ```
 
 - docker compose up
   - create and start container
@@ -108,5 +121,5 @@
   ```Shell
   $ sudo gpasswd -a $USER docker
 
-  # restart
+  # restart machine
   ```
