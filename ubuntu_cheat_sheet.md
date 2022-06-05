@@ -64,7 +64,7 @@
 
 - Update Package list and upgrade softwears
     ```Shell
-    sudo apt update && apt upgrade
+    sudo apt update && sudo apt upgrade
     ```
 - Turn off sound bell and Turn on visual bell.
     ```Shell  
