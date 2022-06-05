@@ -1,5 +1,13 @@
 # Git cheet sheet
 
+## Git
+
+- First Settings
+```
+git config --global user.name "name"
+git config --global user.email "name"
+```
+
 ## Github
 
 ### Create a git repository in local machine and upload to github.。
@@ -50,6 +58,5 @@
 - Reference
   - [Multiple GitHub Accounts & SSH Config](https://stackoverflow.com/questions/3225862/multiple-github-accounts-ssh-config)
   - [GitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
-
 
 
